@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" href="img/techis-logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+        <!--Adjust width for each device-->
+        <div class="container">
+            <!--navbar-brand, for company, product, or project name. Font primary is set inside span for title font colorGF-->
+            <a class="navbar-brand title-icon" href="#"><span class="font-primary">P</span>ortfolio</a> 
+            <!--navbar-toggler, used for collapse plugin-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!--navbar-collapse for grouping and hiding contents by a parent breakpoint-->
+       <div class="collapse navbar-collapse" id="navbarToggler">
+        <!--navbar full-light-height-->
+        <!--ms-auto, push items to the left-->
+        <!--mb-2, for margin bottom for 2 levels-->
+          <ul class="navbar-nav ms-auto mb-2">
+            <li class="nav-item">
+              <a class="nav-link font-black" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-black" href="#project">Projects</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+
+      <div id="about">
+        <h2><span class="font-primary">A</span>bout</h2>
+            <img src="img/IMG_9252.jpg">
+            <div class="name">Samantha Murray</div>
+            <div class="vocation">Web Application Developer</div>
+            <div class="skills">HTML / CSS/ JavaScript / React.js / Redux / Python / Django / Express.js / AWS(Basics) / Docker(Basics)</div>
+            <p> 
+                As a web developer, I build applications with HTML / CSS 
+            </p>
+            <div class="email">smurra15@mail.ccsf.edu</div>
+            <div class="icons">
+                <a href="https://github.com/murrsa"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/samantha-m-3826b9156/"><i class="bi bi-linkedin ms-3"></i></a>
+            </div>
+      </div>
+
+      <div id="project">
+        <h2><span class="font-primary">P</span>roject</h2>
+       
+        <div class="card mb-3">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="img/project-twitter.png" class="img-fluid rounded-start" alt="Twitter Project">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Twitter Clone</h5>
+                  <p class="card-text">This is a twitter based project made using Django.</p>
+                  <p class="card-text"><small class="text-muted">
+                    Test Login Account <br>
+                    Email : test@gmail.com <br>
+                    Password : 1234
+                  </small></p>
+        
+                  <a href="#" target="_blank" class="btn btn-secondary">Website Link</a>
+                  <a href="https://github.com/murrsa" target="_blank" class="btn btn-secondary">Github Link</a>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+
+          <div class="card mb-3">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="img/project-netflix.png" class="img-fluid rounded-start" alt="Netflix Project">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Netflix Clone</h5>
+                  <p class="card-text">This is a Netflix based project using HTML / CSS / JS.</p>
+                  <p class="card-text"><small class="text-muted">
+                    Test Login Account <br>
+                    Email : test@gmail.com <br>
+                    Password : 1234
+                  </small></p>
+                  <a href="#" target="_blank" class="btn btn-secondary">Website Link</a>
+                  <a href="https://github.com/murrsa" target="_blank" class="btn btn-secondary">Github Link</a>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--dropdown menu-->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
